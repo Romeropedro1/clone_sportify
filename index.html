@@ -1,0 +1,268 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Spotify Clone
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   .hover-effect:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+   }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-white font-roboto">
+  <header class="bg-gray-800 p-4 flex justify-between items-center">
+   <div class="flex items-center space-x-4">
+    <img alt="Spotify logo placeholder" class="w-10 h-10" height="50" src="https://storage.googleapis.com/a1aa/image/sjebq9ITRrxxI6YL4zRMWoSnrotOeQ6nm9of6np3O2xU8cEoA.jpg" width="50"/>
+    <h1 class="text-2xl font-bold">
+     Spotify
+    </h1>
+   </div>
+   <nav class="space-x-4">
+    <a class="hover:text-green-500" href="#">
+     Home
+    </a>
+    <a class="hover:text-green-500" href="#">
+     Search
+    </a>
+    <a class="hover:text-green-500" href="#">
+     Your Library
+    </a>
+   </nav>
+   <div class="flex items-center space-x-4">
+    <button class="bg-green-500 px-4 py-2 rounded-full hover-effect">
+     Sign Up
+    </button>
+    <button class="bg-white text-black px-4 py-2 rounded-full hover-effect">
+     Log In
+    </button>
+   </div>
+  </header>
+  <main class="p-4">
+   <section class="mb-8">
+    <h2 class="text-3xl font-bold mb-4">
+     Recently Played
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Album cover of Dark Side of the Moon by Pink Floyd" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/mLHgQKimGuLgLNjkIxZ84jbZTzZel0SKD00sUNKplf9ZmOCUA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Dark Side of the Moon
+      </h3>
+      <p class="text-gray-400">
+       Pink Floyd
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Album cover of Thriller by Michael Jackson" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/NoWSoF1RBxbQIp3JwqYfRoy2hAne4JeXt1lsyO9wVerga6IQB.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Thriller
+      </h3>
+      <p class="text-gray-400">
+       Michael Jackson
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Album cover of Abbey Road by The Beatles" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/8tDKIU64eAWwZKExKE5F9Hktjv13FLHoPXcpebbT5e57MdEoA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Abbey Road
+      </h3>
+      <p class="text-gray-400">
+       The Beatles
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Album cover of Back in Black by AC/DC" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/WaN8Fk01X4YIKt7fbKUon0f4iWeVXIYMg1fOxiqQSouez0RgC.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Back in Black
+      </h3>
+      <p class="text-gray-400">
+       AC/DC
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Album cover of Rumours by Fleetwood Mac" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/L1ylXLeup91oUqngRuUHiQWeixQEBUjK9jNkOTbB7E3bmOCUA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Rumours
+      </h3>
+      <p class="text-gray-400">
+       Fleetwood Mac
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Album cover of Hotel California by Eagles" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/m4eefbwkHuFjxptfnJTAjo03MooM3f8WhWPXMne35fn1RTHBKA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Hotel California
+      </h3>
+      <p class="text-gray-400">
+       Eagles
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-8">
+    <h2 class="text-3xl font-bold mb-4">
+     Popular Playlists
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Playlist cover of Top Hits 2023" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/aJzFB6LHhnZeXqyFgwY4E5mwws7HfbXEVkAjoMEuqzDvmOCUA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Top Hits 2023
+      </h3>
+      <p class="text-gray-400">
+       The best hits of 2023
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Playlist cover of Chill Vibes" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/a5E8zxSLTWL0MtH6sU7BJWBkPyCJ5QJ0QfucLNzmQPUMTHBKA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Chill Vibes
+      </h3>
+      <p class="text-gray-400">
+       Relax and unwind
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Playlist cover of Workout Mix" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/69OC5zRGvxoaExqLfdfABMf9fm1uQKVTSFGuWf6RF7pT10RgC.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Workout Mix
+      </h3>
+      <p class="text-gray-400">
+       Get pumped up
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Playlist cover of Indie Essentials" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/p7HN92wV3hLFKFWSfl3O6pFVg2i3K04tjhf87ef78fvL00RgC.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Indie Essentials
+      </h3>
+      <p class="text-gray-400">
+       Must-listen indie tracks
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Playlist cover of Classic Rock" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/QyVW3T7cQNpeJaaLfpr7ukPwSbM3OG0zepM7sz0wV7cvNdEoA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Classic Rock
+      </h3>
+      <p class="text-gray-400">
+       Rock anthems from the past
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="Playlist cover of Jazz Classics" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/HXutgArw9ZpZCFJ8GfEVP7heYgDWPhp630jSzg8RSSh1mOCUA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Jazz Classics
+      </h3>
+      <p class="text-gray-400">
+       Timeless jazz tunes
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-8">
+    <h2 class="text-3xl font-bold mb-4">
+     New Releases
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="New release cover of Future Nostalgia by Dua Lipa" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/HgcTWx4cHeWbUii5Wxm56bxwyRvRr0F3RMSnSpKEejGsmOCUA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Future Nostalgia
+      </h3>
+      <p class="text-gray-400">
+       Dua Lipa
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="New release cover of After Hours by The Weeknd" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/WarP75HGkd6fYSI42Em6g1dR5yD2vQssECB2q9lNQ2sYTHBKA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       After Hours
+      </h3>
+      <p class="text-gray-400">
+       The Weeknd
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="New release cover of Fine Line by Harry Styles" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/vpymbZw6mGqhBNkzIaCd3Cb1aOTGqKXH9Jf3IPVqLbHXTHBKA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Fine Line
+      </h3>
+      <p class="text-gray-400">
+       Harry Styles
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="New release cover of Chromatica by Lady Gaga" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/9d9tTN1ZQOZAFN4erdPrJXInrp8S8MhpnqzH0C6fZzkkmOCUA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Chromatica
+      </h3>
+      <p class="text-gray-400">
+       Lady Gaga
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="New release cover of Positions by Ariana Grande" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/puxUgoZS0B6yC5tn7i4W5yQhKYghaIsEFLUi0KVveMjZTHBKA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Positions
+      </h3>
+      <p class="text-gray-400">
+       Ariana Grande
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg hover-effect">
+      <img alt="New release cover of Evermore by Taylor Swift" class="w-full h-48 object-cover rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/leCeUV3Tz1mKKEy2eWvBgXipNdzLZuYNeKtqX7efAYshppjAF.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Evermore
+      </h3>
+      <p class="text-gray-400">
+       Taylor Swift
+      </p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-gray-800 p-4">
+   <div class="flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+     <img alt="Spotify logo placeholder" class="w-10 h-10" height="50" src="https://storage.googleapis.com/a1aa/image/sjebq9ITRrxxI6YL4zRMWoSnrotOeQ6nm9of6np3O2xU8cEoA.jpg" width="50"/>
+     <h1 class="text-2xl font-bold">
+      Spotify
+     </h1>
+    </div>
+    <nav class="space-x-4">
+     <a class="hover:text-green-500" href="#">
+      About
+     </a>
+     <a class="hover:text-green-500" href="#">
+      Jobs
+     </a>
+     <a class="hover:text-green-500" href="#">
+      For the Record
+     </a>
+    </nav>
+    <div class="space-x-4">
+     <a class="hover:text-green-500" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="hover:text-green-500" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="hover:text-green-500" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
